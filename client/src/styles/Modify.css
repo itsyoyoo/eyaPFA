@@ -1,0 +1,78 @@
+/* Modify.css */
+
+.modify-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .modify-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .modify-form {
+    background: #fff;
+    padding: 20px 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .modify-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .modify-form input {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .modify-form input:focus {
+    border-color: #5e8aba;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+  }
+  
+  .modify-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .modify-form button[type="submit"] {
+    background-color: #5e8aba;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modify-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .modify-form .cancel-button {
+    background-color: #6c757d;
+    color: #fff;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modify-form .cancel-button:hover {
+    background-color: #5a6268;
+  }
+  

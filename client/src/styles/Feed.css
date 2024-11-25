@@ -1,0 +1,98 @@
+/* Container styling */
+.feed-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.thread-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.thread-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.thread-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.thread-card p {
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+.thread-author, .comment-author {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+
+/* Button styling */
+.comments-btn {
+    background-color: #5e8aba;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comments-btn:hover {
+    background-color: #51769e;
+}
+
+/* Comment input and button styling */
+.comment-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.thread-card input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.comments-btn:last-of-type {
+    background-color: #73ab59;
+    margin-left: 8px;
+    padding: 8px 12px;
+}
+
+.comments-btn:last-of-type:hover {
+    background-color: #64964d;
+}
+
+/* Comments container styling */
+.comments {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comments p {
+    margin: 5px 0;
+}
+
+.comment-author {
+    font-weight: bold;
+    display: block;
+}
+

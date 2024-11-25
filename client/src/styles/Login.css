@@ -1,0 +1,63 @@
+.auth-container {
+  display: flex; /* Flexbox for side-by-side layout */
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh -px); /* Full screen height minus the height of the nav bar */
+  padding: 20px;
+  background-color: #f5f5f5; /* Optional background */
+  margin-top: 60px; /* Space for the navigation bar, adjust as per your nav bar height */
+}
+
+.auth-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Set a max width for the auth box */
+  width: 100%;
+}
+
+.auth-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #5e8aba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background-color: #0056b3;
+}
+
+.login-image {
+  margin-left: 80px; /* Space between auth box and image */
+  max-width: 500px; /* Adjust the max width of the image container */
+}
+
+.login-image img {
+  width: 100%; /* Make sure the image is responsive */
+  height: auto;
+  border-radius: 10px;
+}

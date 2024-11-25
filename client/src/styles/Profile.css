@@ -1,0 +1,16 @@
+/* Profile.css */
+.profile-container {
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: 28%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  

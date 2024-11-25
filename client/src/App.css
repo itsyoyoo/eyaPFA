@@ -1,0 +1,23 @@
+.navbarRight {
+  display: flex;
+  align-items: center;
+}
+
+.navbarRight > button {
+  padding: 15px;
+  width: 150px;
+  background-color: #f99417;
+  color: #fffbf5;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin-left: 15px; /* Space between button and image */
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.navbarRight img {
+  margin-left: 20px;
+  width: 150px;
+  height: auto;
+}
